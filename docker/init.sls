@@ -96,7 +96,7 @@ docker-py requirements:
     - name: python-pip
   pip.installed:
     - name: pip
-    - upgrade: True
+    - upgrade: False
 
 docker-py:
   pip.installed:
